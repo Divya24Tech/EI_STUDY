@@ -1,7 +1,7 @@
-package com.companyname.notification.observer;
+package Event_Notification_System.notification.observer;
 
-import com.companyname.notification.strategy.NotificationStrategy;
-import com.companyname.utilities.Logging;
+import Event_Notification_System.notification.strategy.NotificationStrategy;
+import Event_Notification_System.utilities.Logging;
 
 public class User implements Observer {
     private String name;
