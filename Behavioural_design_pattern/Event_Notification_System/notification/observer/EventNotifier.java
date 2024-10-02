@@ -1,8 +1,8 @@
-package com.companyname.notification.observer;
+package Event_Notification_System.notification.observer;
 
 import java.util.ArrayList;
 import java.util.List;
-import com.companyname.utilities.Logging;
+import Event_Notification_System.utilities.Logging;
 
 public class EventNotifier implements Subject {
     private List<Observer> observers = new ArrayList<>();
@@ -31,3 +31,4 @@ public class EventNotifier implements Subject {
         notifyObservers(eventMessage);
     }
 }
+
